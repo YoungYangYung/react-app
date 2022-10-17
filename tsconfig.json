@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "lib": ["es6", "dom", "dom.iterable", "es2017", "es2020"],
+        "module": "esnext",
+        "target": "es6",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "declaration": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "jsx": "preserve",
+        "sourceMap": false,
+        "skipLibCheck": true
+    },
+    "exclude": ["node_modules", "lib"]
+}
