@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import Demo1 from './reduxDemo/Demo1';
 import Demo2 from './reduxDemo/Demo2';
 import StyleDemo1 from './styleDemo/Demo1';
+import CNode from './page/ConditionalExample';
 
 const RectL = React.lazy(() => import("./Rect"));
 const Step = React.lazy(() => import("./step"));
@@ -19,6 +20,7 @@ function App() {
             <Demo1/>
             <Demo2/>
             <StyleDemo1/>
+            <CNode/>
         </Suspense>
       </Provider>
     );
